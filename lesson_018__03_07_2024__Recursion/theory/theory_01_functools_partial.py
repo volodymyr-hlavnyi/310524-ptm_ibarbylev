@@ -26,6 +26,6 @@ get_total_cost_tax_rate_20 = ...
 
 
 print(isinstance(get_total_cost_tax_rate_0, Callable))
-print(get_total_cost_tax_rate_0(100))   # 100
+print(get_total_cost_tax_rate_0(100))   # 100.0
 print(get_total_cost_tax_rate_9(100))   # 109.0
 print(get_total_cost_tax_rate_20(100))  # 120.0
