@@ -9,10 +9,9 @@
 """
 
 
-def sum_list_tail_recursion(lst, accumulator=0):
-    if not lst:
-        return accumulator
-    return sum_list_tail_recursion(lst[1:], lst[0] + accumulator)
+def sum_list_tail_or_non_tail_recursion(lst, accumulator=0):
+    pass
 
 
-print(sum_list_tail_recursion([1, 2, 3, 4, 5]))  # 15
+nums = [1, 2, 3, 4, 5]
+print(sum_list_tail_or_non_tail_recursion([1, 2, 3, 4, 5]))  # 15
