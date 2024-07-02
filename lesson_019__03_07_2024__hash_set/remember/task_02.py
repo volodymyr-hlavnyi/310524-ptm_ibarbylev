@@ -9,7 +9,7 @@
 """
 
 
-def sum_list_tail_or_non_tail_recursion(lst, accumulator=0):
+def sum_list_tail_or_non_tail_recursion(lst):
     pass
 
 
