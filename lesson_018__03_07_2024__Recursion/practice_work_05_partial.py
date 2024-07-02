@@ -17,12 +17,12 @@ int("101010", base=2): 42
 from functools import partial
 
 # ============ variant 1 ================
-# binary_to_decimal = partial(int, base=2)
+binary_to_decimal = ...
 
 
 # ============ variant 2 ================
-def binary_to_decimal(binary_str: str) -> int:
-    return partial(int, base=2)(binary_str)
+def binary_to_decimal_2(binary_str: str) -> int:
+    return ...
 
 
 print(binary_to_decimal("101010"))

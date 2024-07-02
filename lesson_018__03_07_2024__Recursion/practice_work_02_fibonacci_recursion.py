@@ -10,10 +10,7 @@ from functools import lru_cache
 # @lru_cache
 def fibonacci(n):
     print(n)
-    if n <= 1:
-        return n
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
+    pass
 
 
 for i in range(7):
