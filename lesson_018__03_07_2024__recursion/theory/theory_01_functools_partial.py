@@ -20,9 +20,9 @@ def get_total_cost(price, tax_rate):
     return round(new_price, 2)
 
 
-get_total_cost_tax_rate_0 = ...
-get_total_cost_tax_rate_9 = ...
-get_total_cost_tax_rate_20 = ...
+get_total_cost_tax_rate_0 = partial(get_total_cost, tax_rate=0.00)
+get_total_cost_tax_rate_9 = partial(get_total_cost, tax_rate=0.09)
+get_total_cost_tax_rate_20 = partial(get_total_cost, tax_rate=0.20)
 
 
 print(isinstance(get_total_cost_tax_rate_0, Callable))
